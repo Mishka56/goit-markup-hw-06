@@ -181,6 +181,12 @@ address {
 	background-size: cover;
 }
 
+@media screen and (min-resolution: 192dpi) {
+	.general-section {
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+			url(../images/people-office-mob-2x.jpg);
+	}
+}
 .general-title {
 	max-width: 216px;
 	font-weight: 700;
@@ -837,9 +843,17 @@ address {
 			url(../images/people-office-tab.jpg);
 	}
 
+	@media screen and (min-resolution: 192dpi) {
+		.general-section {
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+				url(../images/people-office-tab-2x.jpg);
+		}
+	}
+
 	.general-section .general-container {
 		padding: 0;
 	}
+
 
 	.general-title {
 		max-width: 496px;
@@ -893,6 +907,13 @@ address {
 		padding: 188px 0;
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 			url(../images/people-office.jpg);
+	}
+
+	@media screen and (min-resolution: 192dpi) {
+		.general-section {
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+				url(../images/people-office-2x.jpg);
+		}
 	}
 
 	.general-title {
