@@ -100,11 +100,11 @@ header {
 	
 }
 
-.mob-menu.is-open {
+/* .mob-menu.is-open {
 	opacity: 1;
 	visibility: visible;
 	pointer-events: auto;
-}
+} */
 
 .menu-close-button {
 	display: block;
